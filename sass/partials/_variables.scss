@@ -1,0 +1,19 @@
+$font: "Open Sans", sans-serif;
+
+$tablet-width: 768px;
+
+$square-size: 245px;
+
+$colors: (
+    "clr-dark-grey": #8d8d8d,
+    "clr-light-grey": #f4f3ee,
+    "clr-grey": #e5e5e5,
+    "clr-black": #463f3a,
+    "clr-primary": #c32c72,
+    "clr-cream": #f4f3ee,
+    "clr-white": #fff,
+);
+
+@function getColor($color) {
+    @return map-get($colors, $color);
+} ;

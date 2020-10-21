@@ -1,0 +1,4 @@
+@mixin square-style($bg, $border) {
+    border: 3px solid getColor($border);
+    background-color: getColor($bg);
+}

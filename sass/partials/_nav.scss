@@ -1,0 +1,16 @@
+.nav {
+    background-color: getColor(clr-light-grey);
+
+    &__logo {
+        font-size: 2.25rem;
+        color: getColor(clr-black) !important;
+    }
+
+    &__link {
+        text-transform: uppercase;
+    }
+
+    &__link--active {
+        color: getColor(clr-primary) !important;
+    }
+}
