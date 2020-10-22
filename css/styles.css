@@ -25,8 +25,19 @@ main {
   margin-top: 4rem;
 }
 
+a {
+  -webkit-transition: all 0.125s ease-in-out;
+  transition: all 0.125s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: #c32c72 !important;
+  text-decoration: none;
+}
+
 .nav {
-  background-color: #f4f3ee;
+  background-color: #f4f3ee !important;
 }
 
 .nav__logo {

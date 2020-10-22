@@ -17,3 +17,13 @@ body {
 main {
     margin-top: 4rem;
 }
+
+a {
+    transition: all 0.125s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    color: getColor(clr-primary) !important;
+    text-decoration: none;
+}

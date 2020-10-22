@@ -1,5 +1,5 @@
 .nav {
-    background-color: getColor(clr-light-grey);
+    background-color: getColor(clr-light-grey) !important;
 
     &__logo {
         font-size: 2.25rem;
